@@ -1,0 +1,74 @@
+[
+    {
+    "id": 1,
+    "nombre":"Indio Solari",  
+    "modelo":"huevito",
+    "diseño": "rock - indio",
+    "cantidad": 1,
+    "precio": 2500, 
+    "imagen":"./images/indio.jpg"
+    },
+{
+    "id":2,
+    "nombre": "Boca - Riquelme",
+    "modelo":"hexagonal", 
+    "diseño":"boca", 
+    "cantidad": 1,
+    "precio": 3900,
+    "imagen":"./images/boca.jpg"
+    },
+{
+    "id":3,
+    "nombre": "Naruto", 
+    "modelo":"hexagonal",
+    "diseño": "Anime",
+    "cantidad": 1,
+    "precio": 3900,
+    "imagen": "./images/anime.jpg"
+        },
+{
+    "id": 4,
+    "nombre": "River Plate", 
+    "modelo":"huevito", 
+    "diseño":"Escudo de river", 
+    "cantidad": 1,
+    "precio":2300,
+    "imagen": "./images/river.jpg"
+        },
+{
+    "id": 5,
+    "nombre":"Flores",
+    "modelo": "hexagonal",
+    "diseño": "flores blancas",
+    "cantidad": 1,
+    "precio": 2500,
+    "imagen":  "./images/flores.jpg"
+    },
+{
+    "id": 6,
+    "nombre":"Cactus",
+    "modelo": "huevito",
+    "diseño": "cactus",
+    "cantidad": 1,
+    "precio": 2600,
+    "imagen": "./images/cactus.png"
+    },
+{
+    "id": 7,
+    "nombre":"Escudo futbol",
+    "modelo": "hexagonal",
+    "diseño": "independiente",
+    "cantidad": 1,
+    "precio": 2300,
+    "imagen": "./images/independiente.jpg"
+    },
+{
+    "id": 8,
+    "nombre":"Dibujo animado",
+    "modelo": "hexagonal",
+    "diseño": "Stich",
+    "cantidad": 1,
+    "precio": 2600,
+    "imagen": "./images/stich.jpg"
+    }
+]

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Playfair+isplay:ital@0;1&display=swap");
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+#contenedorProductos{
+        max-width: 1200px;
+        margin: 60px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.color {
+
+    background-color: #edd58f;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+.galeria {
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+.pie-pagina {
+    width: 100%;
+    background-color: #edd58f;
+    display: grid;
+    justify-items: end;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px 0px;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: stretch;
+    justify-items: stretch;
+}
+
+.pie-pagina .grupo-1 .box img {
+    width: 100px;
+}
+
+.pie-pagina .grupo-1 .box h2 h3 {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: A4A09A;
+    margin-top: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.modalContenedor {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imgCarrito{
+    width: 200px;
+    padding: 10px;
+}
+
+#logoC{
+    color: black;
+    width: 20%;
+    height: 20%;
+
+
+
+}
+
+.contador{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 8px;
+    top: 15px;
+    position: absolute;
+    display: none;
+}
